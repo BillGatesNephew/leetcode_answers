@@ -11,8 +11,7 @@ class Solution {
      * For any acyclic and connected graph, clearly the node(s) closest to all other 
      * nodes in the graph will be those at the middle of the longest path in the graph.
      * Therefore, solving the problem reduces to finding the set of nodes in the middle
-     * of the longest path in the tree. This problem can be solved using the following
-     * algorithm:
+     * of the longest path in the tree. This basic algorithm is as follows:
      *   
      *      1. Start with a list of pointers to every node of degree 1 in the 
      *          initial graph called leaves.
